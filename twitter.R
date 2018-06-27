@@ -14,7 +14,7 @@ library(ggalt)
 library(ggthemes)
 library(scales)
 scales::show_col(ipsum_pal()(9))
-twitter_token <- create_token(app = "kazan_twitter_behaviour_app", consumer_key = "EqkvWPpv0NOpCBd1MqHiqvaBc", consumer_secret = "aIY7qQVFlzGCfF0B267S3UqatjvXM2wVowFaBGuKxA8xtih21Z")
+twitter_token <- create_token(app = "", consumer_key = "", consumer_secret = "")
 # tweets containing #WorldCupRussia2018
 WorldTwitter <- search_tweets("#Samara")
 KazanTwitter <- search_tweets("#Kazan")
